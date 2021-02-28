@@ -1,0 +1,56 @@
+body {
+    text-align: center;
+    background-color: darkgreen;
+    font-family: 'Truculenta', sans-serif;
+    padding-top: 25px;
+}
+
+div.square {
+    border-radius: 10px;
+    background: #73AD21;
+    display: inline-block;
+    outline: 3px dashed black;
+}
+
+div#green {
+    height: 20px;
+    background-color: green;
+    display: inline-block;
+}
+
+div#red {
+    height: 20px;
+    background-color: red;
+    display: inline-block;
+    float: left;
+}
+
+h1{
+    color: blue;
+    font-weight: bold;
+    font-style: italic;
+    font-family: Serif;
+    }
+
+h4{
+    color: lightblue;
+    font-family: Bahnschrift;
+}
+
+#dog{
+    color: red;
+    font-size: larger;
+}
+
+div.square:hover, div.square *:hover {
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
